@@ -1,5 +1,7 @@
 # 🎬 Movie Trending Application  
 
+![Movie Trending Application](https://i.imgur.com/DNKhZOz.png)  
+
 🚀 A modern web application that displays the **latest trending movies**, their ratings, and the **top five most searched movies**. Powered by **Appwrite** for backend operations and the **TMDb API** for movie data.  
 
 ---
@@ -16,16 +18,6 @@
 
 👀 Want to try the app before installing?  
 🔗 **Live Demo:** [Movie Trending App](https://movies-app-4bz6.onrender.com)  
-
----
-
-## 📸 Screenshots  
-
-<p>
-  <a href="https://imgur.com/a/projects-banner-t5oIiXq">
-    <img src="https://i.imgur.com/DNKhZOz.png" width="600" alt="Projects Banner">
-  </a>
-</p>
 
 ---
 
