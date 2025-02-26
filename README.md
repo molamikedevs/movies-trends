@@ -12,6 +12,13 @@
 
 ---
 
+## 🔗 Explore the App  
+
+👀 Want to try the app before installing?  
+🔗 **Live Demo:** [Movie Trending App](https://movies-app-4bz6.onrender.com)  
+
+---
+
 ## 🔑 Environment Variables  
 
 To run this project, create a `.env` file and add the following:  
