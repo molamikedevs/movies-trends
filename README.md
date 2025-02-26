@@ -19,12 +19,10 @@
 
 ---
 
-## 🔑 Environment Variables  
+## 🚀 Getting Started  
 
-To run this project, create a `.env` file and add the following:  
+### **1️⃣ Clone the Repository**  
+```bash
+git clone https://github.com/your-username/movie-trending-app.git
+cd movie-trending-app
 
-```env
-VITE_TMDB_API_KEY=your_tmdb_api_key
-VITE_APPWRITE_PROJECT_ID=your_appwrite_project_id
-VITE_APPWRITE_DATABASE_ID=your_appwrite_database_id
-VITE_APPWRITE_COLLECTION_ID=your_appwrite_collection_id
