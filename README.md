@@ -19,10 +19,22 @@
 
 ---
 
+## 📸 Screenshots  
+
+<p align="center">
+  <a href="https://imgur.com/a/projects-banner-t5oIiXq">
+    <img src="https://i.imgur.com/DNKhZOz.png" width="600" alt="Projects Banner">
+  </a>
+</p>
+
+---
+
 ## 🚀 Getting Started  
 
 ### **1️⃣ Clone the Repository**  
 ```bash
 git clone https://github.com/your-username/movie-trending-app.git
 cd movie-trending-app
+
+
 
