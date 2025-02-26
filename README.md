@@ -21,7 +21,7 @@
 
 ## 📸 Screenshots  
 
-<p align="center">
+<p>
   <a href="https://imgur.com/a/projects-banner-t5oIiXq">
     <img src="https://i.imgur.com/DNKhZOz.png" width="600" alt="Projects Banner">
   </a>
