@@ -20,6 +20,7 @@
   --background-image-hero-pattern: url("/hero-bg.png");
 }
 
+
 @layer base {
   body {
     font-family: "DM Sans", serif;
