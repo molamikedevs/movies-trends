@@ -6,6 +6,7 @@ import Search from './components/Search' // Search component for user input
 import Spinner from './components/Spinner' // Spinner component for loading state
 import MovieCard from './components/MovieCard' // MovieCard component to display individual movies
 import { getTrendingMovies, updateSearchCount } from '../appwrite' // Custom functions for interacting with Appwrite backend
+import MovieDetails from './components/MovieDetails'
 
 // Base API URL for The Movie Database (TMDb)
 const BASE_URL = `https://api.themoviedb.org/3`
@@ -28,6 +29,7 @@ const App = () => {
 	const [searchTerm, setSearchTerm] = useState('') // User search input
 	const [movieList, setMovieList] = useState([]) // List of movies based on search
 	const [trendingMovies, setTrendingMovies] = useState([]) // List of trending movies
+	const [selectedMovie, setSelectedMovie] = useState(null)
 	const [isLoading, setIsLoading] = useState(false) // Loading state for API requests
 	const [errorMessage, setErrorMessage] = useState('') // Error message for failed requests
 	const [debounceSearchTerm, setDebounceSearchTerm] = useState('') // Debounced search term for API efficiency
@@ -142,12 +144,22 @@ const App = () => {
 					) : (
 						<ul>
 							{movieList.map(movie => (
-								<MovieCard key={movie.id} movie={movie} /> // Render each movie card
+								<MovieCard
+									key={movie.id}
+									movie={movie}
+									onClick={setSelectedMovie}
+								/> // Render each movie card
 							))}
 						</ul>
 					)}
 				</section>
 			</div>
+			{selectedMovie && (
+				<MovieDetails
+					movie={selectedMovie}
+					onClose={() => setSelectedMovie(null)}
+				/>
+			)}
 		</main>
 	)
 }
