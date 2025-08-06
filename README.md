@@ -1,32 +1,47 @@
-# 🎬 Movie Trending Application  
+# 🎬 Movie Trending
 
-![Movie Trending Application](https://i.imgur.com/DNKhZOz.png)  
+![Movie App Banner](https://i.imgur.com/DNKhZOz.png)
 
-🚀 A modern web application that displays the **latest trending movies**, their ratings, and the **top five most searched movies**. Powered by **Appwrite** for backend operations and the **TMDb API** for movie data.  
+> Real-time trending movies dashboard powered by TMDb API
 
----
+## ✨ Features
 
-## 🛠 Tech Stack  
-- **React** ⚛️ - Frontend framework  
-- **Tailwind CSS** 🎨 - Styling  
-- **Appwrite** 🔧 - Backend services  
-- **TMDb API** 🎥 - Movie database  
+- **Movie Discovery**
+  - View latest trending movies
+  - See top 5 most searched films
+  - Detailed movie information
+- **User Experience**
+  - Responsive design
+  - Rating visualization
+  - Smooth animations
+- **Data Management**
+  - Real-time API updates
+  - Personalized watchlists (coming soon)
+  - Search functionality
 
----
+## 🛠 Tech Stack
 
-## 🔗 Explore the App  
+| Category       | Technologies                         |
+|----------------|--------------------------------------|
+| Frontend       | React, Tailwind CSS                  |
+| Backend        | Appwrite (User Data)                 |
+| API            | TMDb Movie Database                  |
+| Deployment     | Render                               |
 
-👀 Want to try the app before installing?  
-🔗 **Live Demo:** [Movie Trending App](https://movies-app-4bz6.onrender.com)  
+## 🚀 Live Demo
 
----
+Explore trending movies: [Movie Trending App](https://movies-app-4bz6.onrender.com)
 
-## 🚀 Getting Started  
+## 📸 App Preview
 
-### **1️⃣ Clone the Repository**  
+<div align="center">
+  <img src="https://i.imgur.com/74bZaeP.png" width="30%" alt="Trending View">
+  <img src="https://i.imgur.com/gua9LBv.png" width="30%" alt="Movie Details"> 
+</div>
+
+## 🛠️ Installation
+
+1. Clone the repository
 ```bash
 git clone https://github.com/your-username/movie-trending-app.git
 cd movie-trending-app
-
-
-
