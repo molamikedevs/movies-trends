@@ -1,52 +1,47 @@
-# 🎬 TinyMoviez Dashboard
+# 🎬 Movie Trending
 
-> A high-performance, state-driven movie & TV show dashboard built entirely with Vanilla JavaScript and Custom MVC Architecture.
+![Movie App Banner](https://i.imgur.com/DNKhZOz.png)
 
-![Movie App Banner](https://raw.githubusercontent.com/molamikedevs/tiny-moviez/main/src/img/hero.jpg) ## ✨ Overview
+> Real-time trending movies dashboard powered by TMDb API
 
-TinyMoviez is a capstone project designed to demonstrate advanced JavaScript concepts without relying on modern frameworks like React. By building a custom Model-View-Controller (MVC) architecture from scratch, this application showcases deep foundational knowledge of state management, the Publisher-Subscriber pattern, asynchronous API handling, and scalable SCSS styling.
+## ✨ Features
 
-## 🚀 Live Demo
-
-Explore the live application here: **[TinyMoviez on Vercel](https://tiny-moviez-five.vercel.app)**
-
-## 🎯 Key Features
-
-- **Custom State Management:** Centralized state object that drives the UI, mimicking the core philosophy of React/Redux.
-- **Advanced Data Fetching:** Utilizes `Promise.all` for parallel fetching of multiple TMDb endpoints, drastically reducing load times.
-- **Media Discovery:** Browse trending movies, TV shows, and Anime with client-side pagination.
-- **Search Functionality:** Real-time multi-search for finding specific titles.
-- **Data Persistence:** "Bookmarks" (Watchlist) and "Recently Viewed" history are automatically saved and hydrated using `LocalStorage`.
-- **Responsive UI:** Fluid CSS Grid layout combined with BEM methodology in SCSS for a flawless experience across Desktop, Tablet, and Mobile.
+- **Movie Discovery**
+  - View latest trending movies
+  - See top 5 most searched films
+  - Detailed movie information
+- **User Experience**
+  - Responsive design
+  - Rating visualization
+  - Smooth animations
+- **Data Management**
+  - Real-time API updates
+  - Personalized watchlists (coming soon)
+  - Search functionality
 
 ## 🛠 Tech Stack
 
-| Category        | Technologies                                       |
-|-----------------|----------------------------------------------------|
-| **Core** | Vanilla JavaScript (ES6+), HTML5                   |
-| **Styling** | SCSS / SASS (BEM Naming Convention)                |
-| **Architecture**| Custom MVC, Publisher-Subscriber Pattern           |
-| **API** | [TMDb (The Movie Database)](https://www.themoviedb.org/) |
-| **Bundler** | Parcel                                             |
-| **Deployment** | Vercel                                             |
+| Category       | Technologies                         |
+|----------------|--------------------------------------|
+| Frontend       | React, Tailwind CSS                  |
+| Backend        | Appwrite (User Data)                 |
+| API            | TMDb Movie Database                  |
+| Deployment     | Render                               |
 
-## 🏗️ Architecture Highlight (MVC)
+## 🚀 Live Demo
 
-This app avoids messy DOM manipulation by strictly separating concerns:
-* **Model:** Handles all TMDb API calls, data normalization, and `LocalStorage` persistence. 
-* **View:** Dedicated classes for each UI component. Views only listen for user events and render HTML strings.
-* **Controller:** The brain of the app. It bridges the Model and View using the Publisher-Subscriber pattern, ensuring the UI and Data layers never directly interact.
+Explore trending movies: [Movie Trending App](https://movies-app-4bz6.onrender.com)
 
 ## 📸 App Preview
 
 <div align="center">
-  <img src="https://via.placeholder.com/300x200?text=Desktop+View" width="45%" alt="Desktop View">
-  <img src="https://via.placeholder.com/300x200?text=Mobile+View" width="45%" alt="Mobile View"> 
+  <img src="https://i.imgur.com/74bZaeP.png" width="30%" alt="Trending View">
+  <img src="https://i.imgur.com/gua9LBv.png" width="30%" alt="Movie Details"> 
 </div>
 
-## 💻 Installation & Local Setup
+## 🛠️ Installation
 
-1. Clone the repository:
+1. Clone the repository
 ```bash
-git clone [https://github.com/molamikedevs/tiny-moviez.git](https://github.com/molamikedevs/tiny-moviez.git)
-cd tiny-moviez
+git clone https://github.com/your-username/movie-trending-app.git
+cd movie-trending-app
